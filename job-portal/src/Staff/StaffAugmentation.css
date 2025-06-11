@@ -1,0 +1,9 @@
+/* Optional enhancement */
+.shadow-sm {
+    transition: transform 0.3s ease;
+  }
+  
+  .shadow-sm:hover {
+    transform: translateY(-5px);
+  }
+  

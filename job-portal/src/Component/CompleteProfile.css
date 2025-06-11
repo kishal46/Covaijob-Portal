@@ -1,0 +1,96 @@
+/* Main container */
+.main-container {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding-top: 2rem;
+}
+
+/* Card container */
+.profile-card {
+  max-width: 800px;
+  border-radius: 15px;
+  background: #fff;
+}
+
+/* Form group margin */
+.form-group {
+  position: relative;
+}
+
+/* Labels with icon alignment */
+.form-label {
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* Input focus style */
+.form-control:focus {
+  border-color: #0d6efd !important; /* Bootstrap primary blue */
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Textarea style */
+textarea.form-control {
+  resize: vertical;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Skill badges container */
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+/* Skill badge style */
+.skill-badge {
+  font-size: 0.9rem;
+  padding: 0.35em 0.7em;
+  border-radius: 20px;
+  user-select: none;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Skill badge delete button */
+.skill-badge .btn-danger {
+  font-size: 0.85rem;
+  line-height: 1;
+  border-radius: 50%;
+  width: 1.2rem;
+  height: 1.2rem;
+  padding: 0;
+  margin-left: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .profile-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .form-control-lg {
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .btn-lg {
+    width: 100%;
+  }
+}

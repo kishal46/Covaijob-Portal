@@ -1,0 +1,108 @@
+.hero-slider {
+  background: #f8f9fa;
+  overflow: hidden;
+}
+
+.hero-slide {
+  padding: 30px 20px;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.tamil-text {
+  font-size: 3rem;
+  padding-left: 40px;
+  font-weight: 600;
+  color: #333;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-left: 40px;
+  font-weight: 700;
+  color: #222;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+/* 🔘 Dot Indicators */
+.text-center .dot {
+  width: 12px;
+  height: 12px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 6px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.text-center .dot.active {
+  background-color: #007bff;
+}
+
+.custom-btn {
+  font-size: 0.9rem;
+  margin-left: 40px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  border: none;
+}
+.Slideimage{
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+}
+.custom-btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.arrow {
+  margin-left: 8px;
+  font-size: 1rem;
+}
+
+.developer-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .hero-slide {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .developer-image{
+    margin-top: 40px;
+  }
+  h1, .tamil-text {
+    font-size: 1.6rem;
+  }
+
+  .custom-btn {
+    font-size: 0.85rem;
+    padding: 6px 16px;
+  }
+  .Slideimage{
+    margin-top: 30px;
+    width: 300px;
+  }
+
+  .text-center .dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+  }
+}

@@ -1,0 +1,84 @@
+.highlight-title {
+    color: #ff7430;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  
+  .desc {
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .link-text {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  .get-in-touch-btn {
+    margin-top: 20px;
+    border: 2px solid #ff7430;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: white;
+    color: #000;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  .get-in-touch-btn:hover {
+    background: #ff7430;
+    color: white;
+  }
+  
+  .contact-form {
+    margin-top: 15px;
+    color: #003973;
+    border: 1px solid #595a5c;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .contact-form h5 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  
+  .recaptcha-box {
+    margin: 15px 0;
+  }
+  
+  .fake-recaptcha {
+    background: white;
+    color: black;
+    padding: 12px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .submit-btn {
+    border: 1px solid white;
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background: white;
+    color: #263b82;
+  }
+  

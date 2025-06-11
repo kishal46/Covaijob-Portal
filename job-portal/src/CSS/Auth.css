@@ -1,0 +1,135 @@
+/* Auth container */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* Auth form box */
+.auth-form {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 450px;
+}
+
+/* Title */
+.auth-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Input group */
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.input-group input {
+  padding: 12px 14px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #4a90e2;
+}
+
+/* Password wrapper */
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding: 12px 40px 12px 14px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #555;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.login-page{
+  margin-top: -120px;
+  margin-bottom: -120px;
+}
+.toggle-password:hover {
+  color: #111;
+}
+
+/* Submit Button */
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+  background-color: #357bd8;
+}
+
+/* Message */
+.account-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.link-text {
+  color: #4a90e2;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.link-text:hover {
+  color: #357bd8;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .auth-form {
+    padding: 25px 20px;
+  }
+
+  .auth-title {
+    font-size: 20px;
+  }
+
+  .auth-btn {
+    font-size: 14px;
+  }
+}

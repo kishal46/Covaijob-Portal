@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3fafe;
+  }
+  
+  .form-container {
+    background-color: #f3fafe;
+    min-height: 50vh;
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .form-grid {
+    background-color: #f3fafe;
+    padding: 2rem;
+    max-width: 900px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    border-radius: 1.5rem;
+  }
+  
+  .form-title {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-subtitle {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 1rem;
+    color: #64748b;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.75rem;
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: #64748b;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background-color: #f9fafb;
+  }
+  
+  select.form-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill=\"gray\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7 10l5 5 5-5z\"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+  }
+  
+  .form-button-container {
+    grid-column: span 2;
+    text-align: center;
+  }
+  
+  .form-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #2563eb;
+  }
+  

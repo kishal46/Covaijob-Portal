@@ -1,0 +1,156 @@
+.joblist-container {
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.joblist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.joblist-title {
+  grid-column: 1 / -1;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.job-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
+
+.job-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-description {
+  color: #444;
+  margin-top: 10px;
+}
+
+.toggle-btn {
+  margin-top: 8px;
+  background: none;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.apply-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+
+  &:hover {
+    background-color: #218838;
+  }
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: red;
+  margin-left: 8px;
+}
+
+.close-btn {
+  color: gray;
+}
+
+.job-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.job-modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.job-modal-content h3 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.job-modal-content p {
+  margin-bottom: 10px;
+}
+
+.close-modal-btn {
+  margin-top: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}.job-description {
+  color: #444;
+  margin-top: 10px;
+}
+
+.toggle-btn {
+  margin-top: 8px;
+  background: none;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-btn:hover {
+  text-decoration: underline;
+}
+

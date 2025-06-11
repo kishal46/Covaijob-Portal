@@ -1,0 +1,96 @@
+/* Styling for jobseeker profile cards */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-img-top {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.badge {
+  background-color: #6c757d;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.btn-outline-primary {
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Responsive design for cards */
+@media (max-width: 767px) {
+  .card-img-top {
+    height: 200px;
+  }
+
+  .card-body {
+    padding: 12px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* Styling for container and page heading */
+.container {
+  padding: 50px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 50px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+.application-form {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .application-form h2 {
+    text-align: center;
+  }
+  
+  .application-form label {
+    font-weight: bold;
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .application-form input[type="text"],
+  .application-form input[type="email"],
+  .application-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .submit-section button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-section button:disabled {
+    background-color: #ccc;
+  }
+  
+  .status-message {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
